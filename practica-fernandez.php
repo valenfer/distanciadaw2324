@@ -7,7 +7,7 @@
  * @return int El factorial del número especificado.
  * @throws Exception Si el número no es un entero no negativo.
  * @author Valentín Fernández Guijarro
- * @version 2.0
+ * @version 3.0
  * {@internal Para uso interno de la documentación.}
  */
 function factorial($numero) {
@@ -35,7 +35,7 @@ function factorial($numero) {
  * @return array La serie de Fibonacci hasta el elemento $numero.
  * @throws Exception Si el número no es un entero positivo.
  * @author Valentín Fernández Guijarro
- * @version 2.0
+ * @version 3.0
  * {@internal Para uso interno de la documentación.}
  */
 function fibonacci($numero) {
@@ -67,4 +67,4 @@ $serie = fibonacci($fs);
 echo "<br>";
 echo "Los primeros $fs elementos de la serie de Fibonacci son: " . implode("-", $serie);
 
-
+echo "Se ha añadido esta línea para modificar el proyecto y subirlo a github como nueva versión";
